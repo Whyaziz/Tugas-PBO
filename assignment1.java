@@ -6,7 +6,7 @@ public class assignment1 {
 
         String[] Barang = {"cabai", "bayam", "bawang", "tempe", "beras"};
         int[] harga = {3000, 2000, 3000, 5000, 20000};
-        int uangDina = 50000;
+        int uang = 50000;
 
         ArrayList<String> barangDibeli = new ArrayList<>();
 
@@ -31,12 +31,12 @@ public class assignment1 {
         System.out.println("Barang yang dibeli Dina: " + barangDibeli);
 
         System.out.println("Total belanja Dina: " + totalBelanja);
-        if (totalBelanja < uangDina) {
-            System.out.println("Kurang " + (uangDina - totalBelanja));
-        } else if (totalBelanja == uangDina) {
+        if (totalBelanja < uang) {
+            System.out.println("Kurang " + (uang - totalBelanja));
+        } else if (totalBelanja == uang) {
             System.out.println("Pas");
         } else {
-            System.out.println("Lebih " + (totalBelanja - uangDina));
+            System.out.println("Lebih " + (totalBelanja - uang));
         }
     }
 }
